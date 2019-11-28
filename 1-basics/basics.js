@@ -114,6 +114,7 @@ describe("basics", function() {
             expect(Number(someNumber)).to.equal(10);
         });
     });
+    
 
     describe("Leading zeros can also be omitted", function() {
         it("should run without errors", function() {
@@ -307,7 +308,7 @@ describe("basics", function() {
             ////////////////////////////////////////////////////////////////////
             // Can you find a value that is typeof "object" but also casts to `false`?
             // ✏️ ADD CODE HERE ✏️
-            const falsyObject = null;
+            const falsyThing = null;
             ////////////////////////////////////////////////////////////////////
             
             expect(typeof falsyThing).to.equal("object");
