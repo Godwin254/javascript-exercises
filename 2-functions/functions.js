@@ -27,7 +27,7 @@ describe("functions", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE ✏️
-
+            const myFunction = () =>{}
             ////////////////////////////////////////////////////////////////////
 
             myFunction(); // myFunction should be callable now
