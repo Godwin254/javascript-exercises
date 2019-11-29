@@ -286,10 +286,12 @@ describe("arrays", function() {
     describe("Get the index of the last occurrence", function() {
         it("should run without errors", function() {
             const array = ["a", "b", "a", "b", "a"];
-
+            
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB, NO LOOPS! ✏️
-
+            function lastOccurrence(string) {
+                return array.lastIndexOf(string);
+            }
             ////////////////////////////////////////////////////////////////////
 
             expect(lastOccurrence("a")).to.equal(4);
