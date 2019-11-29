@@ -255,7 +255,7 @@ describe("arrays", function() {
             function cut(start, end) {
                 return array.slice(start, end);
             }
-            
+
             ////////////////////////////////////////////////////////////////////
 
             expect(cut(1)).to.eql(["b", "c", "d", "e", "f"]);
@@ -272,7 +272,9 @@ describe("arrays", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB, NO LOOPS! ✏️
-
+            function firstOccurrence(string) {
+                return array.indexOf(string);
+            }  
             ////////////////////////////////////////////////////////////////////
 
             expect(firstOccurrence("a")).to.equal(0);
